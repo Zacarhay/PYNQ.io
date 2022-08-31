@@ -44,7 +44,7 @@
           <div class="flex-item flex-item-stretch flex-column">
             <img class="image max-width-400" src="img/jupyter.png">
           </div>
-          <div class="flex-item flex-item-stretch flex-column">
+          <div class="flex-item flex-item-stretch-4 flex-column">
             <p class="text">
               <a class="highlight-text" href="https://jupyter.org/">Jupyter Notebook</a><br>
               <zero-md src="./Index.md/Key.md"></zero-md>
@@ -62,7 +62,6 @@
         </div>
       </div>
     </div>
-  </div>
 
   <div class="banner">
       <div class="banner-table flex-column">
