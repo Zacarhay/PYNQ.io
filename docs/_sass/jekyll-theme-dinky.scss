@@ -140,7 +140,7 @@ li ul {
 hr {
   border: 0;
   height: 1px;
-  background: rgb(220, 220, 220);
+  background: rgb(220, 220, 220, 1);
   margin: 0 0 10px 0;
 }
 
@@ -156,7 +156,7 @@ hr {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  box-shadow: 0 0px 4px rgb(0 0 0 / 32%), 0 0px 10px rgb(0 0 0 / 23%);
+  box-shadow: 0 0px 4px rgb(0 0 0 0.3), 0 0px 10px rgb(0 0 0 0.2);
 }
 
 .menu {
@@ -172,7 +172,7 @@ hr {
 }
 
 .menu-highlight {
-  color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255, 1) !important;
 }
 
 .logo {
@@ -791,7 +791,7 @@ ol.nested>li:before {
 
 .masonry figure>figcaption.text-only {
   position: initial;
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(80, 80, 80, 1);
   padding: 20px 20px;
   text-shadow: none;
 }
@@ -885,7 +885,7 @@ ol.nested>li:before {
   margin-bottom: 0;
   margin-right: 0;
   margin-left: 0;
-  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255, 1);
   border: 1px solid #7d7d7d;
   font-size: 18px;
   outline: none;
@@ -905,7 +905,7 @@ ol.nested>li:before {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   box-sizing: border-box;
   padding: 5px 10px;
-  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255, 1);
   border: 1px solid #7d7d7d;
   font-size: 18px;
   outline: none;
@@ -922,7 +922,7 @@ ol.nested>li:before {
 .custom-survey input[readonly].custom-textbox-survey,
 .custom-survey textarea[readonly].custom-textbox-survey {
   cursor: default;
-  background: rgb(230, 230, 230);
+  background: rgb(230, 230, 230, 1);
 }
 
 .custom-survey .custom-radio-group-survey {
@@ -949,7 +949,7 @@ ol.nested>li:before {
   margin-top: 5px;
   margin-bottom: 10px;
   border-radius: 51%;
-  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.32), 0 0px 10px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.3), 0 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .custom-survey .custom-radio-group-survey input[type="radio"]+label,
@@ -1044,7 +1044,7 @@ ol.nested>li:before {
 .custom-survey .custom-radio-group-survey input[type="radio"]+label>figure>figcaption.text-only,
 .custom-survey .custom-radio-group-survey input[type="checkbox"]+label>figure>figcaption.text-only {
   position: initial;
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(80, 80, 80, 1);
   padding: 25px 25px;
   text-shadow: none;
 }
