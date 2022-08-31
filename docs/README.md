@@ -46,7 +46,7 @@
           </div>
           <div class="flex-item flex-item-stretch-4 flex-column">
             <p class="text">
-              <a class="highlight-text" href="https://jupyter.org/">Jupyter Notebook</a><br>
+              <br><a class="highlight-text" href="https://jupyter.org/">Jupyter Notebook</a></br>
               <zero-md src="./Index.md/Key.md"></zero-md>
             </p>
           </div>
